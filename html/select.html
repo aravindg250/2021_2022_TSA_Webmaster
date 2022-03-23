@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>The Mars Mission</title>
+        
+        <link rel="stylesheet" href="../css/style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://css.gg/css?=|facebook|instagram|twitter|google" rel="stylesheet">
+        
+        
+    </head> 
+    <body>
+        <section class="form-header">
+            
+            <!--transparent header + light/mars mode-->
+            <nav>
+                <a href="../html/main2.html" ><img src="../img/mars-real-logo.gif"></a>
+                <a href="../html/main2.html"><img src="../img/mars-logo-text2.png" id="logo-text"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../html/tourism2.html">TOURISM</a></li>
+                        <li><a href="../html/history2.html">HISTORY</a></li>
+                        <li><a href="../html/geography2.html">GEOGRAPHY</a></li>
+                        <li><a href="../html/travel.html">TRAVEL PACKAGES</a></li>
+                        <li>
+                            <div class="dropdown">
+                            <p id="book-now">BOOK NOW</p>
+                            <div class="dropdown-content">
+                                <a href="insert.html">BOOK TRIP</a>
+                                <a href="select.html">VIEW INFO</a>
+                                <a href="update.html">UPDATE INFO</a>
+                                <a href="delete.html">CANCEL TRIP</a>
+                            </div>
+                        </div></li>
+                    </ul>
+                    
+                </div>
+                <img src="../img/sun.png" id="sun-icon">
+                
+                <input class="toggle" type="checkbox" id="mode-slider"/>
+                
+                <img src="../img/clickmars.png" id="mars-icon">
+            </nav>
+    
+            <!--Opening page title-->
+            <div class="text-box">
+                <h1>Check Your Info!</h1>
+            </div>
+
+            <!--Bobbing Arrow Animation-->
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="banner">
+                <canvas id="canvas"></canvas>
+            </div>
+        </section>
+             <!--Form to come to mars-->
+        <section class="form-container" id="selectcon">
+            <p></p>
+            <h3>Want to See Your Information?</h3>
+            <label for="number4">Enter your phone number:</label>
+            <input type="text" placeholder="Phone Number" name="number4" id="number4" required>
+            <p></p>
+            <p></p>
+            <button id="select" class="bouncy">See Info</button>
+            <p></p> 
+            <p></p> 
+            <table class='centered'>
+                <thead>
+                    <tr>
+                        <th>Member Phone</th>
+                        <th>Member Name</th>
+                        <th>Duration</th>
+                        <th>Package</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td><p id = 'memPhone'></p></td>
+                      <td><p id = 'memName'></p></td>
+                      <td><p id = 'memDuration'></p></td>
+                      <td><p id = 'memPackage'></p></td>
+                  </tr>
+                </tbody>
+            </table>
+            <p></p>
+        <p></p>
+        </section>
+        
+
+        <script type="text/javascript" src="/js/code2.js"></script>
+        <script type="module" src="/js/select.js"></script>
+        
+        <!--JS for light/mars mode-->
+        <script>
+
+            var icon = document.getElementById("mode-slider");
+    
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+                
+            }
+    
+        </script>
+    </body>
+</html>
