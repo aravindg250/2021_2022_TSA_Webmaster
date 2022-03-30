@@ -39,7 +39,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 90%;
+    width: 100%;
     z-index: 1;
 }
 nav img {
