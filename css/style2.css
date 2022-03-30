@@ -227,6 +227,10 @@ nav img {
     color: var(--secondary-color); 
 }
 
+.scrolling-active button{
+    color: var(--secondary-color); 
+}
+
 /* Front Page Title */
 .text-box {
     width: 90%;

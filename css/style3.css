@@ -130,3 +130,17 @@
     color: #222;
   }
   
+  :root {
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: white;
+    --quartery-color: darkorange;
+    --quintary-color:#ccc5b9;
+}
+.dark-theme{
+    --primary-color: rgb(20, 19, 19);
+    --secondary-color: darkorange;
+    --tertiary-color: darkorange;
+    --quartery-color: white;
+    --quintary-color: black;
+}
