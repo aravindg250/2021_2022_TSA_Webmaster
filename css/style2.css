@@ -1605,3 +1605,11 @@ input::-webkit-input-placeholder {
 .centered th{
     text-decoration: underline;
 }
+
+.profile-box {
+    display: flex;
+}
+
+.card {
+    
+}
