@@ -17,25 +17,21 @@ const app = initializeApp(firebaseConfig);
  
 const db = getDatabase();
 //set variables 
-var memName, memPhone, memDuration, memPackage
+var memName, memEmail
 
 // Sets variables to the values entered into the corresponding ids in html
 function dataPrep(){
     memName = document.getElementById('name').value;
-    memPhone = document.getElementById('number').value;
-    memDuration = document.getElementById('duration').value;
-    memPackage = document.getElementById('package').value;
+    memEmail = document.getElementById('number').value;
 }
 
 //inserts data for a member into the database
 function InsertData(){
-    //sets the reference paths in firebase to member/+memPhone
-    set(ref(db,'member/'+ memPhone),{
+    //sets the reference paths in firebase to member/+memEmail
+    set(ref(db,'member/'+ memEmail),{
         //set firebase data values to the variables from data prep
         memberName: memName, 
-        memberPhone: memPhone,
-        memberDuration: memDuration,
-        memberPackage: memPackage
+        memberEmail: memEmail
     })
     .then(()=>{
         alert('Trip Ordered'); //alert successful order
