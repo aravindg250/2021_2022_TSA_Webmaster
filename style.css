@@ -499,46 +499,85 @@ h3 {
 }
 
 /* travel packages */
-.trav-header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(ship.jpg);
-    min-height: 70vh;
+.source-header {
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(AdobeStock_127854858.jpeg);
+    height: 100vh;
     width:100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    
 }
-.trav-course {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 30px;
-    color: var(--secondary-color);
+.sources{
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("https://s.abcnews.com/images/Technology/science-trip-mars-space-tourism-01-sh-llr-210724_1627160773605_hpMain_16x9_1600.jpg");
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.research_sources{
+    width: 100%;
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 600;
+    justify-content: center;
+}
+.research_sources h2{
+  text-align: left;
+  padding-left: 1%;
+  color: white;
+  font-size: 30px;
 }
 
-.trav-row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+.research_sources p{
+  padding-right: 2%;
+  color: white;
+  font-size: 15px;
 }
-.trav-course-col {
-    flex-basis: 31%;
-    background: var(--primary-color);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 50px;
-    box-sizing: border-box;
-    transition: 0.4s;
-    border: 3px solid var(--secondary-color);
+.media_sources{
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: 600;
+  justify-content: center;
 }
-h3 {
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
+.media_sources h2{
+text-align: left;
+padding-left: 1%;
+color: white;
+font-size: 30px;
 }
-.trav-course-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+.media_sources p{
+padding-right: 2%;
+color: white;
+font-size: px;
 }
+.frameworks{
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: 600;
+  justify-content: center;
+  color: white;
+}
+.frameworks h2{
+text-align: left;
+padding-left: 1%;
+color: white;
+font-size: 30px; 
+}
+.frameworks p{
+padding-right: 2%;
+color: white;
+font-size: 15px;
+}
+
+
 
 /*Geography page */
 .geo-header {
