@@ -1615,9 +1615,6 @@ input::-webkit-input-placeholder {
     display: flex;
 }
 
-.card {
-    
-}
 
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
 * {
@@ -1627,7 +1624,7 @@ input::-webkit-input-placeholder {
 .profile {
   color: #2b2c48;
   font-family: "Jost", sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1566738780863-f9608f88f3a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1638,12 +1635,12 @@ input::-webkit-input-placeholder {
   padding: 20px;
 }
 
-.card {
+.card, .card2, .card3, .card4, .card5 {
   max-width: 340px;
   margin: auto;
   overflow-y: auto;
   position: relative;
-  z-index: 1;
+  z-index: 0;
   overflow-x: hidden;
   background-color: white;
   display: flex;
