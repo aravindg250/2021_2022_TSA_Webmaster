@@ -34,7 +34,7 @@ function InsertData(){
         memberEmail: memEmail
     })
     .then(()=>{
-        alert('Trip Ordered'); //alert successful order
+        alert('Registration Complete'); //alert successful order
     })
     .catch((error)=>{
         alert('unsuccessful, error'+error); //alert if an error occurred.
