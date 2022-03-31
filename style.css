@@ -40,7 +40,7 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 9999;
 }
 nav img {
     width: 75px;
@@ -1633,6 +1633,7 @@ input::-webkit-input-placeholder {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  z-index:0;
 }
 
 .card, .card2, .card3, .card4, .card5 {
