@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <title>The Mars Mission</title>
-        <link rel="stylesheet" href="../css/style2.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
@@ -15,32 +15,27 @@
             
             <!--transparent header + light/mars mode-->
             <nav>
-                <a href="../html/main2.html" ><img src="../img/mars-real-logo.gif"></a>
-                <a href="../html/main2.html"><img src="../img/mars-logo-text2.png" id="logo-text"></a>
+                <a href="index.html"><img src="VRMARS (2).png" id="logo-text"></a>
                 <div class="nav-links">
                     <ul>
-                        <li><a href="../html/tourism2.html">TOURISM</a></li>
-                        <li><a href="../html/history2.html">HISTORY</a></li>
-                        <li><a href="../html/geography2.html">GEOGRAPHY</a></li>
-                        <li><a href="../html/travel.html">TRAVEL PACKAGES</a></li>
-                        <li>
-                            <div class="dropdown">
-                            <p id="book-now">BOOK NOW</p>
-                            <div class="dropdown-content">
-                                <a href="insert.html">BOOK TRIP</a>
-                                <a href="select.html">VIEW INFO</a>
-                                <a href="update.html">UPDATE INFO</a>
-                                <a href="delete.html">CANCEL TRIP</a>
-                            </div>
-                        </div></li>
+                        <li><a href="tourism2.html">EVENT INFO</a></li>
+                        <li><a href="history2.html">MEET THE ASTRONAUTS</a></li>
+                        <li><a href="geography2.html">GEOGRAPHY</a></li>
+                        <li><a href="travel.html">TRAVEL PACKAGES</a></li>
+                        
                     </ul>
-                    
                 </div>
-                <img src="../img/sun.png" id="sun-icon">
-                
-                <input class="toggle" type="checkbox" id="mode-slider"/>
-                
-                <img src="../img/clickmars.png" id="mars-icon">
+                <main class="main" id="book-now">
+                    <div class="btn-wrapper">
+                      <button class="btn-3d-cube-2"><span class="btn btn-border" data-hover="SIGN UP">REGISTER</span></button>
+                    </div>
+                </main>
+                <div class="dropdown-content">
+                    <a href="insert.html">SIGN UP</a>
+                    <a href="select.html">VIEW INFO</a>
+                    <a href="update.html">UPDATE INFO</a>
+                    <a href="delete.html">CANCEL ACCOUNT</a>
+                </div>
             </nav>
     
             <!--Opening page title-->
@@ -91,8 +86,8 @@
             <p></p>
             
         </section>
-        <script type="text/javascript" src="/js/code2.js"></script>
-        <script type="module" src="/js/update.js"></script>
+        <script type="text/javascript" src="code2.js"></script>
+        <script type="module" src="update.js"></script>
             
         <!--JS for light/mars mode-->
         <script>
@@ -105,5 +100,29 @@
             }
     
         </script>
+        <script>
+            const items = document.querySelectorAll(".accordion button");
+    
+            function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+      
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+      
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+            }
+    
+            items.forEach(item => item.addEventListener('click', toggleAccordion));
+        </script>
+        <script>
+            window.addEventListener('scroll', function () {
+            let nav = document.querySelector('nav');
+      
+            nav.classList.toggle('scrolling-active', window.scrollY > 50); //adds the class scrolling active to nav when scrollY>50
+      })
+          </script>
     </body>
 </html>
