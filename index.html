@@ -240,6 +240,14 @@
 
     <script type="text/javascript" src="code2.js"></script>
 
+    <script>
+      window.addEventListener('scroll', function () {
+      let nav = document.querySelector('nav');
+
+      nav.classList.toggle('scrolling-active', window.scrollY > 50); //adds the class scrolling active to nav when scrollY>50
+})
+    </script>
+
     <!--JS for light/mars mode-->
     <script>
 
