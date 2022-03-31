@@ -1984,7 +1984,7 @@ input::-webkit-input-placeholder {
 .faq {
   box-sizing: border-box;
 }
-.faq::before, .faq::after 
+.faq::before, .faq::after {
   box-sizing: border-box;
 }
 
