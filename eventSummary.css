@@ -231,7 +231,10 @@
     background: transparent;
     border: 3px solid #ff6b6b;
   }
-  
+  .timeline-title{
+    text-align: left !important;
+    padding-left: 0.75%;
+  }
   /*----- TIMELINE CONTENT -----*/
   .timeline-content {
     padding-bottom: 40px;
