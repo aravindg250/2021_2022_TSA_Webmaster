@@ -27,7 +27,9 @@
                 </div>
                 <main class="main" id="book-now">
                     <div class="btn-wrapper">
+                      <a href="firebase.html">
                       <button class="btn-3d-cube-2"><span class="btn btn-border" data-hover="SIGN UP">REGISTER</span></button>
+                    </a>
                     </div>
                 </main>
                 <div class="dropdown-content">
@@ -40,7 +42,7 @@
     
             <!--Opening page title-->
             <div class="text-box">
-                <h1>Come to Mars!</h1>
+                <h1>Explore Mars With Us!</h1>
             </div>
 
             <!--Bobbing Arrow Animation-->
@@ -57,11 +59,41 @@
         <section class="form-container">
             <p></p>
             <h3>Enter the following to sign up!</h3>
-            <label for="number">What is your email? (Ex: marsmission@gmail.com)</label>
+            <label for="number">What is your email? (Replace any periods with underscore. Ex: VRmars@gmail_com)</label>
             <input type="text" placeholder="Email" name="number" id="number" required>
             <p></p>
             <label for="name">What is your full name?</label>
             <input type="text" placeholder="Full Name" name="name" id="name" required>
+            <p></p>
+            <label for="name">What is your country of residence? (Optional)</label>
+            <input type="text" placeholder="Country" name="country" id="country">
+            <p></p>
+            <label for="name">What days will you be attending?</label>
+            <P></P>
+            <div id="checkcontainer">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> 
+                <label for="vehicle1">November 20, 2030 (Olympus Mons)</label><br>
+            </div>
+            <p></p>
+            <div id="checkcontainer">
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="day2"> 
+                <label for="vehicle2">November 21, 2030 (Ghost Dunes)</label><br>
+            </div>
+            <p></p>
+            <div id="checkcontainer">
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="day3"> 
+                <label for="vehicle3">November 22, 2030 (Valles Marineris)</label><br>
+            </div>
+            <p></p>
+            <div id="checkcontainer">
+                <input type="checkbox" id="vehicle4" name="vehicle4" value="4"> 
+                <label for="vehicle4">November 23, 2030 (North + South Poles)</label><br>
+            </div>
+            <p></p>
+            <div id="checkcontainer">
+                <input type="checkbox" id="vehicle5" name="vehicle5" value="day5"> 
+                <label for="vehicle5">November 24, 2030 (Gale Crater)</label><br>
+                </div>
             <p></p>
             <p></p>
             <button id = "submit" class="bouncy">Submit</button>
