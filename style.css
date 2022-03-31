@@ -39,7 +39,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    width: 90%;
     z-index: 9999;
 }
 nav img {
@@ -1876,7 +1876,7 @@ input::-webkit-input-placeholder {
     text-align: center;
     text-decoration: none;
     font-weight: 600;
-    min-width: 220px;
+    min-width: 200px;
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
