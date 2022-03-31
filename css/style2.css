@@ -47,7 +47,8 @@ nav img {
 }
 
 #logo-text{
-    width: 150px;
+    padding-top: 15px;
+    width: 230px;
 }
 .nav-links {
     flex: 1;
@@ -164,8 +165,8 @@ nav img {
 }
 .arrow span{
     display: block;
-    width: 7px;
-    height: 6px;
+    width: 15px;
+    height: 15px;
     border-bottom: 5px solid var(--tertiary-color);
     border-right: 5px solid var(--tertiary-color);
     transform: rotate(45deg);
@@ -1983,7 +1984,7 @@ input::-webkit-input-placeholder {
 .faq {
   box-sizing: border-box;
 }
-.faq::before, .faq::after {
+.faq::before, .faq::after 
   box-sizing: border-box;
 }
 
