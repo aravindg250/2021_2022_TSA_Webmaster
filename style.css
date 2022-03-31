@@ -26,7 +26,7 @@ body{
 .header {
     min-height: 100vh;
     width:100%;
-    background-image: url(../img/AdobeStock_127854858.jpeg);
+    background-image: url(AdobeStock_127854858.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -454,7 +454,7 @@ h3 {
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(../img/AdobeStock_463966002.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(AdobeStock_463966002.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -500,7 +500,7 @@ h3 {
 
 /* travel packages */
 .trav-header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(../img/ship.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(ship.jpg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -542,7 +542,7 @@ h3 {
 
 /*Geography page */
 .geo-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/geobg2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(geobg2.jpg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -597,7 +597,7 @@ h3 {
 }
 /* history 1st half of the section */
 .history-header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(../img/mars-cool-background-3.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(mars-cool-background-3.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -656,7 +656,7 @@ h3 {
 /* container for the circles */
 .hidden{
     position: absolute;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/mars-cool-satellite.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mars-cool-satellite.jpeg);
     background-size: cover;
     border-radius: 55px;
     background-repeat: no-repeat;
@@ -703,7 +703,7 @@ h3 {
 /* Style the front side 1a*/
 .circle1a-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-landscape.jpg);
+    background-image: url(mars-landscape.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius:50%;
@@ -716,7 +716,7 @@ h3 {
 /* Style the back side of circle1a */
 .circle1a-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-landscape2.jpg);
+    background-image: url(mars-landscape2.jpg);
     background-size: cover;
     color: white;
     transform: rotateY(180deg);
@@ -760,7 +760,7 @@ h3 {
 /* Style the front side for 1b*/
 .circle1b-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-circle.jpg);
+    background-image: url(mars-circle.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -775,7 +775,7 @@ h3 {
 /* Style the back side of circle1b */
 .circle1b-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-mountains.jpg);
+    background-image: url(mars-mountains.jpg);
     background-size: cover;
     transform: rotateY(180deg);
     border-radius:50%;
@@ -819,7 +819,7 @@ h3 {
 /* Style the front side 2a*/
 .circle2a-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-circle2.jpg);
+    background-image: url(mars-circle2.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -834,7 +834,7 @@ h3 {
 /* Style the back side of circle2a */
 .circle2a-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-landscape3.jpg);
+    background-image: url(mars-landscape3.jpg);
     background-size: cover;
     color: white;
     transform: rotateY(180deg);
@@ -878,7 +878,7 @@ h3 {
 /* Style the front side 2b */
 .circle2b-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-duststorm.jpg);
+    background-image: url(mars-duststorm.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -893,7 +893,7 @@ h3 {
 /* Style the back side of circle2b */
 .circle2b-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-duststorm2.jpg);
+    background-image: url(mars-duststorm2.jpg);
     background-size: cover;
     color: white;
     transform: rotateY(180deg);
@@ -936,7 +936,7 @@ h3 {
 /* Style the front side 3a */
 .circle3a-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-atmosphere.jpg);
+    background-image: url(mars-atmosphere.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -951,7 +951,7 @@ h3 {
 /* Style the back side of circle3a */
 .circle3a-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-atmosphere2.jpg);
+    background-image: url(mars-atmosphere2.jpg);
     background-size: cover;
     color: white;
     transform: rotateY(180deg);
@@ -995,7 +995,7 @@ h3 {
 /* Style the front side 3b */
 .circle3b-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-funfacts.jpg);
+    background-image: url(mars-funfacts.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -1010,7 +1010,7 @@ h3 {
 /* Style the back side of circle3b */
 .circle3b-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-futurecolony.jpg);
+    background-image: url(mars-futurecolony.jpg);
     background-size: cover;
     background-position: 25% 25%;
     transform: rotateY(180deg);
@@ -1054,7 +1054,7 @@ h3 {
 /* Style the front side 4a*/
 .circle4a-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-distance.jpg);
+    background-image: url(mars-distance.jpg);
     background-size: cover;
     background-position: 45% 10%;
     background-repeat: no-repeat;
@@ -1069,7 +1069,7 @@ h3 {
 /* Style the back side of circle4a */
 .circle4a-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-rocket.png);
+    background-image: url(mars-rocket.png);
     background-size: cover;
     background-position: 25% 25%;
     transform: rotateY(180deg);
@@ -1114,7 +1114,7 @@ h3 {
 /* Style the front side 4b */
 .circle4b-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-satellite.jpg);
+    background-image: url(mars-satellite.jpg);
     background-size: cover;
     background-position: 25% 25%;
     background-repeat: no-repeat;
@@ -1129,7 +1129,7 @@ h3 {
 /* Style the back side of circle4a */
 .circle4b-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-moon.jpg);
+    background-image: url(mars-moon.jpg);
     background-size: cover;
     background-position: 20% 3%;
     color: white;
@@ -1173,7 +1173,7 @@ h3 {
 /* Style the front side 5a */
 .circle5a-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-paradise.jpg);
+    background-image: url(mars-paradise.jpg);
     background-size: cover;
     background-position: 45% 10%;
     background-repeat: no-repeat;
@@ -1188,7 +1188,7 @@ h3 {
 /* Style the back side of circle5a */
 .circle5a-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-city.jpg);
+    background-image: url(mars-city.jpg);
     background-size: cover;
     color: white;
     transform: rotateY(180deg);
@@ -1234,7 +1234,7 @@ h3 {
 /* Style the front side 5b */
 .circle5b-front {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-homes.jpg);
+    background-image: url(mars-homes.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -1249,7 +1249,7 @@ h3 {
 /* Style the back side of circle5b */
 .circle5b-back {
     border: 3px solid #780E0E;
-    background-image: url(../img/mars-comet.jpg);
+    background-image: url(mars-comet.jpg);
     background-size: cover;
     background-position: 30% 90%;
     transform: rotateY(180deg);
@@ -1305,7 +1305,7 @@ h3 {
 }
 /*Added background image to the header and positioned it*/
 .tourism-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/AdobeStock_373707019.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(AdobeStock_373707019.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -1543,7 +1543,7 @@ input::-webkit-input-placeholder {
 .dropdown:hover .dropdown-content { display: block;}
 
 .form-header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(../img/ship.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(ship.jpg);
     min-height: 70vh;
     width:100%;
     background-position: center;
