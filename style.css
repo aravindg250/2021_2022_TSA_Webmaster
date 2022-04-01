@@ -4066,3 +4066,25 @@ input::-webkit-input-placeholder {
   padding-right: 12px;
   border-right: 1px solid #dfe2ec;
 }
+
+.eventDes {
+  padding-top: 4%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.eventDes h1 {
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.eventDes ul {
+  list-style-type: circle;
+}
+
+.eventDes ul li {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
