@@ -365,20 +365,6 @@
   transition: 0.3s;
 }
 
-.profile {
-  color: #2b2c48;
-  font-family: "Jost", sans-serif;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  z-index: 0;
-}
 
 .card2 {
   max-width: 340px;
