@@ -201,7 +201,7 @@
     width: 15px;
   }
   .timeline-marker:before {
-    background: #ff6b6b;
+    background: #934838 ;
     border: 3px solid transparent;
     border-radius: 100%;
     content: "";
@@ -229,7 +229,7 @@
   
   .timeline-item:not(.period):hover .timeline-marker:before {
     background: transparent;
-    border: 3px solid #ff6b6b;
+    border: 3px solid #ad6242 ;
   }
   .timeline-title{
     text-align: left !important;
@@ -380,8 +380,8 @@
       ----------------------------------------------*/
   .marker-outline .timeline-marker:before {
     background: transparent;
-    border-color: #ff6b6b;
+    border-color: #934838 ;
   }
   .marker-outline .timeline-item:hover .timeline-marker:before {
-    background: #ff6b6b;
+    background: #934838 ;
   }
