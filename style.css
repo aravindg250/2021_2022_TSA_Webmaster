@@ -232,6 +232,11 @@ nav img {
     color: var(--secondary-color); 
 }
 
+.scrolling-active #logo-text{
+  width: 150px; 
+  transition: 0.5s;
+}
+
 /* Front Page Title */
 .text-box {
     width: 90%;
