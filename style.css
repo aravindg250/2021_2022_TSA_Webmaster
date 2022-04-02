@@ -1596,7 +1596,7 @@ input::-webkit-input-placeholder {
 
 .form-header {
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(ship.jpg);
-    min-height: 70vh;
+    min-height: 100vh;
     width:100%;
     background-position: center;
     background-size: cover;
