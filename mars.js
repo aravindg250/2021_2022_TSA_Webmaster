@@ -34,7 +34,7 @@ function InsertData(){
         memberEmail: memEmail
     })
     .then(()=>{
-        alert('Registration Complete'); //alert successful order
+        alert('Event Link Sent to Email'); //alert successful order
     })
     .catch((error)=>{
         alert('unsuccessful, error'+error); //alert if an error occurred.
