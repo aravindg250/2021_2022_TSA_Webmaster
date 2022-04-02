@@ -232,6 +232,11 @@ nav img {
     color: var(--secondary-color); 
 }
 
+.scrolling-active #logo-text{
+  width: 150px; 
+  transition: 0.5s;
+}
+
 /* Front Page Title */
 .text-box {
     width: 90%;
@@ -501,12 +506,13 @@ h3 {
 
 /* travel packages */
 .source-header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(AdobeStock_127854858.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(sourcesBG.jpg);
     height: 100vh;
     width:100%;
     background-position: center;
     background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
 }
 .sources{
   background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("https://s.abcnews.com/images/Technology/science-trip-mars-space-tourism-01-sh-llr-210724_1627160773605_hpMain_16x9_1600.jpg");
@@ -581,7 +587,7 @@ font-size: 15px;
 /*Geography page */
 .geo-header {
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(cc_mars-keyart-horizontal_16x9.jpg);
-    height:70vh;
+    height: 100vh;
     width:100%;
     background-position: center;
     background-size: cover;
@@ -589,10 +595,10 @@ font-size: 15px;
 }
 
 .event-header {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(cc_mars-keyart-horizontal_16x9.jpg);
-  height:70vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(eventInfoBG.jpg);
+  height: 100vh;
   width:100%;
-  background-position: center;
+  background-position: 0.25rem;
   background-size: cover;
   position: relative;
 }
@@ -1592,7 +1598,7 @@ input::-webkit-input-placeholder {
 
 .form-header {
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(ship.jpg);
-    min-height: 70vh;
+    min-height: 100vh;
     width:100%;
     background-position: center;
     background-size: cover;
