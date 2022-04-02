@@ -501,7 +501,7 @@ h3 {
 /* travel packages */
 .source-header {
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(AdobeStock_127854858.jpeg);
-    height: 100vh;
+    height: 70vh;
     width:100%;
     background-position: center;
     background-size: cover;
@@ -588,10 +588,10 @@ font-size: 15px;
 }
 
 .event-header {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(cc_mars-keyart-horizontal_16x9.jpg);
-  height:70vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(eventInfoBG.jpg);
+  height: 70vh;
   width:100%;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   position: relative;
 }
