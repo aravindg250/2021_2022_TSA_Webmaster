@@ -577,17 +577,25 @@ color: white;
 font-size: 15px;
 }
 
-
-
 /*Geography page */
 .geo-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(geobg2.jpg);
-    min-height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(cc_mars-keyart-horizontal_16x9.jpg);
+    height:70vh;
     width:100%;
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
+.event-header {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(cc_mars-keyart-horizontal_16x9.jpg);
+  height:70vh;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 /* Territories section */
 .settle {
     width: 80%;
@@ -2404,7 +2412,7 @@ input::-webkit-input-placeholder {
 .profile {
   color: #2b2c48;
   font-family: "Jost", sans-serif;
-  background-color: black;
+  background-image: url(mountain.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
