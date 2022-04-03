@@ -448,7 +448,7 @@
   will-change: top;
   background-size: cover;
   background-position: center;
-  filter: blur(30px);
+  filter: blur(25px);
   transform: scale(1.2);
   transition: 0.5s;
 }
@@ -1104,7 +1104,7 @@
   will-change: top;
   background-size: cover;
   background-position: center;
-  filter: blur(30px);
+  filter: blur(25px);
   transform: scale(1.2);
   transition: 0.5s;
 }
@@ -1759,7 +1759,7 @@
   will-change: top;
   background-size: cover;
   background-position: center;
-  filter: blur(30px);
+  filter: blur(25px);
   transform: scale(1.2);
   transition: 0.5s;
 }
