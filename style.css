@@ -1343,7 +1343,7 @@ font-size: 15px;
 
 /* Modal Content/Box */
 .history-modalContent-all{
-    background: var(--quintary-color);
+    background: var(--primary-color);
     margin-top: 24%;
     width: 50%;
     margin-left: auto;
@@ -1832,7 +1832,7 @@ input::-webkit-input-placeholder {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -1977,14 +1977,14 @@ input::-webkit-input-placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkorange;
+    background-color: var(--secondary-color);
     color: #c00;
     border-radius: 4px;
   }
   .btn-3d .btn.btn-border {
-    border: 1px solid darkorange;
+    border: 1px solid var(--secondary-color);
     background: transparent;
-    color: darkorange;
+    color: var(--secondary-color)
   }
   .btn-3d .btn.btn-border:before {
     color: #222;
@@ -2030,7 +2030,7 @@ input::-webkit-input-placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkorange;
+    background-color: var(--secondary-color);
     color: #c00;
     border-radius: 4px;
     opacity: 0;
@@ -2040,8 +2040,8 @@ input::-webkit-input-placeholder {
   }
   .btn-3d-cube-2 .btn.btn-border {
     background: transparent;
-    color: darkorange;
-    border: 1px solid darkorange;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
   }
   .btn-3d-cube-2 .btn.btn-border:before {
     color: #222;
