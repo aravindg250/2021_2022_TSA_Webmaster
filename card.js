@@ -125,4 +125,23 @@ buttons6.forEach((btn) => {
   btn.addEventListener("click", handleButtonClick6);
 });
 
+const buttons7 = document.querySelectorAll(".card7-buttons button");
+const sections7 = document.querySelectorAll(".card7-section");
+const card7 = document.querySelector(".card7");
 
+const handleButtonClick7 = (e) => {
+  const targetSection = e.target.getAttribute("data-section");
+  const section = document.querySelector(targetSection);
+  targetSection !== "#about7"
+    ? card7.classList.add("is-active")
+    : card7.classList.remove("is-active");
+  card7.setAttribute("data-state", targetSection);
+  sections7.forEach((s) => s.classList.remove("is-active"));
+  buttons7.forEach((b) => b.classList.remove("is-active"));
+  e.target.classList.add("is-active");
+  section.classList.add("is-active");
+};
+
+buttons7.forEach((btn) => {
+  btn.addEventListener("click", handleButtonClick7);
+});
