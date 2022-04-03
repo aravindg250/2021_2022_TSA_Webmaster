@@ -1410,14 +1410,7 @@ input[type=radio] {
     display: none;
 }
 /*Added transition to the images in the carousel and positioned them*/
-.card {
-  position: absolute;
-  width: 30%;
-  height: 100%;
-  margin: auto;
-  transition: transform 0.4s ease;
-  cursor: pointer;
-}
+
 /*Set height, width, and flex properties for container*/
 .container {
     width: 100%;
