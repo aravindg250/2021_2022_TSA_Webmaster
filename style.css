@@ -81,7 +81,7 @@ nav img {
     content:'';
     width: 0%;
     height:2px;
-    background: #f44336;
+    background: var(--secondary-color);
     display:block;
     margin: auto;
     transition: 0.5s;
@@ -151,8 +151,8 @@ nav img {
 
 /* Mars mode color change */
 :root {
-    --primary-color: white;
-    --secondary-color: black;
+    --primary-color: black;
+    --secondary-color: #ff5500;
     --tertiary-color: white;
     --quartery-color: darkorange;
     --quintary-color:#ccc5b9;
@@ -2058,6 +2058,7 @@ input::-webkit-input-placeholder {
   padding-top: 4%;
   padding-left: 7%;
   padding-right: 7%;
+  color: var(--secondary-color);
 }
 
 .eventDes h1 {
