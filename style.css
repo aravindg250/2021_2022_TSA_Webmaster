@@ -2089,6 +2089,7 @@ input::-webkit-input-placeholder {
   padding-bottom: 2%;
 }
 
+
 @media (max-width: 992px) {
 
   .row {
@@ -2099,6 +2100,10 @@ input::-webkit-input-placeholder {
 
   .vl{
     display: none;
+  }
+
+  .text-box h1{
+    font-size: 55px;
   }
 
 }
