@@ -1688,8 +1688,8 @@ input::-webkit-input-placeholder {
   margin: 0;
   padding: 0;
   font-family: "Hind", sans-serif;
-  background: #fff;
-  color: #4d5974;
+  background: black;
+  color: var(--secondary-color);
   display: flex;
 }
 
@@ -1705,7 +1705,7 @@ input::-webkit-input-placeholder {
   border-bottom: 1px solid #e5e5e5;
 }
 .accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 1px solid #03b5d2;
+  border-bottom: 1px solid #fff;
 }
 .accordion button {
   position: relative;
@@ -1713,7 +1713,7 @@ input::-webkit-input-placeholder {
   text-align: left;
   width: 100%;
   padding: 1em 0;
-  color: #7288a2;
+  color: var(--secondary-color);
   font-size: 1.15rem;
   font-weight: 400;
   border: none;
@@ -1722,12 +1722,12 @@ input::-webkit-input-placeholder {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: #03b5d2;
+  color: white;
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
-  color: #03b5d2;
-  border: 1px solid #03b5d2;
+  color: #fff;
+  border: 1px solid #fff;
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
@@ -1763,7 +1763,7 @@ input::-webkit-input-placeholder {
   background: currentColor;
 }
 .accordion button[aria-expanded=true] {
-  color: #03b5d2;
+  color: #fff;
 }
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;
