@@ -67,7 +67,7 @@ nav img {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 32px;
+    padding: 8px 2%;
     position: relative;
     
 }
@@ -75,9 +75,9 @@ nav img {
     color: var(--tertiary-color);
     text-decoration: none;
     font-size: 13px;
+    overflow: none;
 }
-
-.nav-links ul li::after {
+#line::after {
     content:'';
     width: 0%;
     height:2px;
@@ -86,7 +86,7 @@ nav img {
     margin: auto;
     transition: 0.5s;
 }
-.nav-links ul li:hover::after {
+#line:hover::after {
     width: 100%;
 }
 
@@ -2090,7 +2090,8 @@ input::-webkit-input-placeholder {
 }
 
 
-@media (max-width: 992px) {
+
+@media (max-width: 800px) {
 
   .row {
     margin-top: 5%;
