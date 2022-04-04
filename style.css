@@ -677,7 +677,7 @@ color: var(--secondary-color);
 }
 /* history 1st half of the section */
 .history-header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(mars-cool-background-3.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(ship.jpg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -715,7 +715,7 @@ color: var(--secondary-color);
 
   /* Adjusts the table's data's text, fill in color and opacity */
 .history-inner-table td {
-    background-color: rgb(255, 72, 0);  
+    background-color: darkorange;  
     opacity: 60%;
     text-align: center;
     font-family: 'Poppins', sans-serif;
