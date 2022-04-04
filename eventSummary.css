@@ -201,7 +201,7 @@
     width: 15px;
   }
   .timeline-marker:before {
-    background: #934838 ;
+    background: darkorange;
     border: 3px solid transparent;
     border-radius: 100%;
     content: "";
@@ -234,7 +234,7 @@
   .timeline-title{
     text-align: left !important;
     padding-left: 0.75%;
-    color: darkorange
+    color: darkorange;
   }
   /*----- TIMELINE CONTENT -----*/
   .timeline-content {
@@ -242,6 +242,10 @@
   }
   .timeline-content p:last-child {
     margin-bottom: 0;
+  }
+
+  .timeline-info span {
+    color: rgba(172, 172, 172, 0.993);
   }
   
   /*----- TIMELINE PERIOD -----*/
