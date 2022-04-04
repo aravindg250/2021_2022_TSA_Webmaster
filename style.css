@@ -2161,8 +2161,11 @@ input::-webkit-input-placeholder {
     top: 10%;
 }
 
-}
+.accordion button[aria-expanded=true] + .accordion-content {
+    opacity: 1;
+    max-height: 15em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
 
-.history-body {
-    width: 100%;
 }
