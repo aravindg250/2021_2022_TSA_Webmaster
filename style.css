@@ -2155,5 +2155,8 @@ input::-webkit-input-placeholder {
     top: 10%;
 }
 
+}
 
+.history-body {
+    width: 100%;
 }
