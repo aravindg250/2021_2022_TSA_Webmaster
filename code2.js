@@ -2,6 +2,10 @@
 window.addEventListener('scroll', function () {
     let nav = document.querySelector('nav');
 
+    let arrow = document.querySelector('.arrow');
+
+    arrow.classList.toggle('scrolling-active2', window.scrollY > 50);
+
     nav.classList.toggle('scrolling-active', window.scrollY > 50); //adds the class scrolling active to nav when scrollY>50
 })
 // code for twinkling stars on homepage. creates an array to put random generated coordinates  in
