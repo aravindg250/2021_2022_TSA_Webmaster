@@ -1354,7 +1354,7 @@ color: var(--secondary-color);
 
 /* Modal Content/Box */
 .history-modalContent-all{
-    background: var(--primary-color);
+    background: #282828;
     margin-top: 24%;
     width: 50%;
     margin-left: auto;
@@ -1362,6 +1362,7 @@ color: var(--secondary-color);
     padding: 8px 24px;
     border-radius: 6px;
     z-index: 4;
+
 }
 
 /* The Close Button */
@@ -2106,5 +2107,53 @@ input::-webkit-input-placeholder {
   .text-box h1{
     font-size: 55px;
   }
+
+  .history { 
+      justify-content: center;
+      text-align: center;
+  }
+
+  .history-table {
+    transform: translateY(20%) translateX(-8%);
+  }
+
+  .history-learn-more {
+    transform: translateX(-16%);
+  }
+
+  .hidden{
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mars-cool-satellite.jpeg);
+    background-size: cover;
+    border-radius: 55px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+    transform: translateY(115%) translateX(-35%);
+    height: 90vh;
+    width: 58vh;
+    left: 35%;
+    top: 75%;
+    padding-bottom: 300px;
+}
+
+.footer {
+    transform: translateY(100vh);
+}
+
+#circle1a, #circle2a, #circle3a, #circle4a, #circle5a{
+    left: 22%;
+    top: 7%;
+}
+
+#circle1b, #circle2b, #circle3b, #circle4b, #circle5b {
+    left: 22%;
+    top: 56%;
+}
+
+.history-modal-all {
+    left: -6%;
+    top: 10%;
+}
+
 
 }
