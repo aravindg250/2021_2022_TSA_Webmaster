@@ -612,7 +612,7 @@ color: var(--secondary-color);
 
 /*Geography page */
 .geo-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(cc_mars-keyart-horizontal_16x9.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url(cc_mars-keyart-horizontal_16x9.jpg);
     height: 100vh;
     width:100%;
     background-position: center;
@@ -621,7 +621,7 @@ color: var(--secondary-color);
 }
 
 .event-header {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(eventInfoBG.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.7)),url(eventInfoBG.jpg);
   height: 100vh;
   width:100%;
   background-position: 0.25rem;
@@ -677,8 +677,8 @@ color: var(--secondary-color);
 }
 /* history 1st half of the section */
 .history-header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(ship.jpg);
-    min-height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url(ship.jpg);
+    min-height: 100vh;
     width:100%;
     background-position: center;
     background-size: cover;
@@ -742,9 +742,10 @@ color: var(--secondary-color);
     background-repeat: no-repeat;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
     height: 90vh;
-    width: 125vh;
+    width: 105vh;
     left: 35%;
     top: 75%;
+    transform: translateY(41%);
 }
 /*Make the cursor a pointer when hovering over the circles*/
 .circles{
@@ -2114,11 +2115,11 @@ input::-webkit-input-placeholder {
   }
 
   .history-table {
-    transform: translateY(20%) translateX(-8%);
+    transform: translateY(20%) translateX(-3%);
   }
 
   .history-learn-more {
-    transform: translateX(-16%);
+    transform: translateX(-11%);
   }
 
   .hidden{
@@ -2128,7 +2129,7 @@ input::-webkit-input-placeholder {
     border-radius: 55px;
     background-repeat: no-repeat;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
-    transform: translateY(115%) translateX(-35%);
+    transform: translateY(145%) translateX(-33%);
     height: 90vh;
     width: 58vh;
     left: 35%;
@@ -2141,12 +2142,12 @@ input::-webkit-input-placeholder {
 }
 
 #circle1a, #circle2a, #circle3a, #circle4a, #circle5a{
-    left: 22%;
+    left: 21%;
     top: 7%;
 }
 
 #circle1b, #circle2b, #circle3b, #circle4b, #circle5b {
-    left: 22%;
+    left: 21%;
     top: 56%;
 }
 
