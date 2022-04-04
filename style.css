@@ -151,10 +151,10 @@ nav img {
 
 /* Mars mode color change */
 :root {
-    --primary-color: black;
-    --secondary-color: #ff5500;
+    --primary-color: rgb(8, 8, 8);
+    --secondary-color: white;
     --tertiary-color: white;
-    --quartery-color: darkorange;
+    --quartery-color: #ff5500;
     --quintary-color:#ccc5b9;
 }
 .dark-theme{
@@ -309,7 +309,7 @@ p {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    background: black;
+    background: var(--primary-color);
 }
 .course-col {
     flex-basis: 31%;
@@ -1700,7 +1700,7 @@ input::-webkit-input-placeholder {
   margin: 0;
   padding: 0;
   font-family: "Hind", sans-serif;
-  background: black;
+  background: var(--primary-color);
   color: var(--secondary-color);
   display: flex;
 }

@@ -234,6 +234,7 @@
   .timeline-title{
     text-align: left !important;
     padding-left: 0.75%;
+    color: darkorange
   }
   /*----- TIMELINE CONTENT -----*/
   .timeline-content {
