@@ -2333,3 +2333,15 @@
   padding-right: 12px;
   border-right: 1px solid #dfe2ec;
 }
+
+@media (max-width: 800px) {
+
+  .profile{
+    display: flex;
+    padding: 0px;
+  }
+
+  .card2, .card3, .card4, .card5, .card6, .card7{
+    margin: 50px;
+  }
+}
