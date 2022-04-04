@@ -421,7 +421,7 @@ h3 {
     text-align: left;
 }
 .linker-col img:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px 0px rgba(255,255,255,0.7);
 }
 
 /* Citizens' reviews of our planet and services.*/
@@ -468,7 +468,7 @@ h3 {
 }
 
 .vl {
-    border-left: 6px solid var(--secondary-color);
+    border-left: 6px solid #ff5500;
     height: 205px;
   }
 
@@ -716,7 +716,7 @@ color: var(--secondary-color);
   /* Adjusts the table's data's text, fill in color and opacity */
 .history-inner-table td {
     background-color: darkorange;  
-    opacity: 60%;
+    opacity: 90%;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color:black;
@@ -1715,10 +1715,10 @@ input::-webkit-input-placeholder {
 }
 
 .accordion .accordion-item {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ff5500;
 }
 .accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #ff5500;
 }
 .accordion button {
   position: relative;
