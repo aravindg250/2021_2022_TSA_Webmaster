@@ -18,9 +18,7 @@ body{
     animation: transitionIn 0.5s;
     background: var(--primary-color);
 }
-.navbar{
-    display: none;
-}
+
 /*For nav bar */
 @keyframes transitionIn{
     from{
@@ -2211,9 +2209,6 @@ input::-webkit-input-placeholder {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     transition: transform 400ms;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
     user-select: none;
   }
   .hamRotate.active {
