@@ -18,7 +18,9 @@ body{
     animation: transitionIn 0.5s;
     background: var(--primary-color);
 }
-
+.navbar{
+    display: none;
+}
 /*For nav bar */
 @keyframes transitionIn{
     from{
