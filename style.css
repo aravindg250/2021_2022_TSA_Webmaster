@@ -89,65 +89,88 @@ nav img {
 #line:hover::after {
     width: 100%;
 }
-
-/*Mars mode slider*/
-#sun-icon {
-    width: 40px;
-}
-#mars-icon {
-    width: 40px;
-}
-.toggle {
-    margin-left: 8px;
-    margin-right: 8px;
-    padding-left:30px;
-    padding-right:30px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 62px;
-    height: 32px;
-    display: inline-block;
-    position: relative;
-    border-radius: 50px;
-    overflow: hidden;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    background-color: #707070;
-    transition: background-color ease 0.3s;
-  }
-  
-  .toggle:before {
-    content: "on off";
-    display: block;
-    position: absolute;
-    z-index: 2;
-    width: 28px;
-    height: 28px;
-    background: #fff;
-    left: 2px;
-    top: 2px;
-    border-radius: 50%;
-    font: 10px/28px Helvetica;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-indent: -22px;
-    word-spacing: 37px;
-    color: #fff;
-    text-shadow: -1px -1px rgba(0,0,0,0.15);
-    white-space: nowrap;
+@media(max-width: 800px){
+    .nav-links{
+        display: none;
+    }
+    .container {
+        max-width: 1050px;
+        width: 90%;
+        margin: auto;
+      }
     
-    transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
-  }
-  
-  .toggle:checked {
-    background-color: darkorange;
-  }
-  
-  .toggle:checked:before {
-    left: 32px;
-  }
+      .navbar {
+        width: 100%;
+        box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+      }
+    
+      .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 62px;
+      }
+    
+      .navbar .menu-items {
+        display: flex;
+      }
+    
+      .navbar .nav-container li {
+        list-style: none;
+      }
+    
+      .navbar .nav-container a {
+        text-decoration: none;
+        color: #0e2431;
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding: 0.7rem;
+      }
+    
+      .navbar .nav-container a:hover{
+          font-weight: bolder;
+      }
+    
+      .nav-container {
+        display: block;
+        position: relative;
+        height: 60px;
+      }
+    
+      .nav-container .checkbox {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        opacity: 0;
+        cursor: pointer;
+      }
+    
+      .nav-container .hamburger-lines {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        right: 20px;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    
+      .nav-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+      }
+    
+}
 
 /* Mars mode color change */
 :root {
