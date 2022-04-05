@@ -1677,7 +1677,7 @@ input::-webkit-input-placeholder {
   width: 100%;
   padding: 1em 0;
   color: var(--secondary-color);
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 400;
   border: none;
   background: none;
@@ -1733,7 +1733,7 @@ input::-webkit-input-placeholder {
 }
 .accordion button[aria-expanded=true] + .accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 20em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
@@ -2042,7 +2042,7 @@ input::-webkit-input-placeholder {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
   .row {
     margin-top: 5%;
@@ -2064,11 +2064,15 @@ input::-webkit-input-placeholder {
   }
 
   .history-table {
-    transform: translateY(20%) translateX(-3%);
+    transform: translateY(20%) translateX(7%);
   }
 
   .history-learn-more {
-    transform: translateX(-11%);
+    transform: translateX(-5%);
+  }
+
+  .history-header {
+    width: 156%;
   }
 
   .hidden{
@@ -2078,7 +2082,7 @@ input::-webkit-input-placeholder {
     border-radius: 55px;
     background-repeat: no-repeat;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
-    transform: translateY(145%) translateX(-33%);
+    transform: translateY(145%) translateX(-17%);
     height: 90vh;
     width: 58vh;
     left: 35%;
@@ -2087,16 +2091,16 @@ input::-webkit-input-placeholder {
 }
 
 .hisfooter {
-    transform: translateY(100vh);
+    transform: translateY(100vh) translateX(26%);
 }
 
 #circle1a, #circle2a, #circle3a, #circle4a, #circle5a{
-    left: 21%;
+    left: 24%;
     top: 7%;
 }
 
 #circle1b, #circle2b, #circle3b, #circle4b, #circle5b {
-    left: 21%;
+    left: 24%;
     top: 56%;
 }
 
@@ -2105,17 +2109,10 @@ input::-webkit-input-placeholder {
     top: 10%;
 }
 
-.accordion button[aria-expanded=true] + .accordion-content {
-    opacity: 1;
-    max-height: 15em;
-    transition: all 200ms linear;
-    will-change: opacity, max-height;
-}
-
 
 }
 
-@media(max-width: 800px){
+@media(max-width: 900px){
     .nav-links{
         display: none;
     }
@@ -2199,6 +2196,8 @@ input::-webkit-input-placeholder {
       .line {
           stroke: white !important;
       }
+
+      
     
 }
 
