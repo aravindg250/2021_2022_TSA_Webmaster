@@ -2195,6 +2195,10 @@ input::-webkit-input-placeholder {
         border-radius: 10px;
         background: #0e2431;
       }
+
+      .line {
+          stroke: white !important;
+      }
     
 }
 
@@ -2221,7 +2225,7 @@ input::-webkit-input-placeholder {
   .line {
     fill:none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke:white;
+    stroke:transparent;
     stroke-width:5.5;
     stroke-linecap:round;
   }
